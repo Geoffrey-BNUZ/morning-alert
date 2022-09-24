@@ -18,7 +18,9 @@ user_id = os.environ["USER_ID"]
 template_id = os.environ["TEMPLATE_ID"]
 
 def get_city():
-  return city.json()['data']['text']
+  city1=city
+  return city1.json()['data']['text']
+
 def get_date():
   date1 = today.strftime("%Y-%m-%d")
   return date1
