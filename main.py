@@ -21,7 +21,7 @@ def get_date():
   date1 = today.strftime("%Y-%m-%d")
   return date1
 def get_week():
-  weektime = today.strftime(%A)
+  weektime = today.strftime("%A")
   return weektime
 
 def get_weather():
