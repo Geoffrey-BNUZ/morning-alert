@@ -18,7 +18,7 @@ user_id = os.environ["USER_ID"]
 template_id = os.environ["TEMPLATE_ID"]
 
 def get_date():
-  delta=today
+  delta = datetime.datetime.now()
   return delta
 
 def get_weather():
